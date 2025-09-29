@@ -1,11 +1,10 @@
 body {
     background-image: url('jpeg.jpg');
-    background-size: cover;        /* Covers entire screen */
-    background-position: center;   /* Centers the image */
-    background-repeat: no-repeat;  /* Prevents tiling */
-    background-attachment: fixed;  /* Image stays fixed when scrolling */
+    background-size: cover;
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
   
-    /* Center the box */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,10 +149,10 @@ body {
     }
   }
   .celebrity-image {
-    width: 150px;      /* make the image smaller */
-    height: auto;      /* keeps proportions */
-    border-radius: 12px;  /* optional: rounded corners */
+    width: 150px;    
+    height: auto;     
+    border-radius: 12px;  
     display: block;
-    margin: 15px auto; /* centers the image */
+    margin: 15px auto; 
   }
   

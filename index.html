@@ -1,1 +1,56 @@
-<h1>Page title</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrity Crush Match - Find Your Perfect Star 🥰</title>
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Start -->
+        <div class="start-screen" id="startScreen">
+            <h1>Celebrity Crush Match 😏</h1>
+            <p>Answer 4 questions to find your celebrity match!</p>
+            <br>
+            <button class="btn" onclick="startQuiz()">Start Quiz</button>
+        </div>
+
+        <!-- Quiz  -->
+        <div class="quiz-screen" id="quizScreen">
+            <div class="progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="question" id="questionText"></div>
+            <div class="answers" id="answersContainer"></div>
+            <button class="btn" id="nextBtn" onclick="nextQuestion()" disabled>Next</button>
+        </div>
+
+        <div class="result-screen" id="resultScreen">
+            <h1 class="result-title">🎉 Your Celebrity Match! 🎉</h1>
+            
+            <div class="celebrity-card" id="celebrityCard">
+                <div class="celebrity-name" id="celebrityName">Celebrity Name</div>
+                <div class="celebrity-description" id="celebrityDescription">
+                    Celebrity description will appear here
+                </div>
+                <div class="match-percentage" id="matchPercentage">85% Match!</div>
+            </div>
+
+            <div class="result-details">
+                <div class="trait-list" id="traitList">
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="btn" onclick="restartQuiz()">Take Quiz Again</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to external JS -->
+    <script src="script.js"></script>
+</body>
+</html>

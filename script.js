@@ -2,39 +2,33 @@
 const celebrities = [
     {
       name: "Jeffrey Epstein",
-      description: "Witty, charming, and loves making people laugh. Perfect for coffee dates and witty banter!",
-      traits: ["humor", "confidence", "creativity", "coffee", "movies"],
-      image: "Epstein.jpg" // Ensure this image is in the same directory
+      description: "Witty, charming, but somehow every date feels like evidence.",
+      traits: ["humor", "confidence", "nobu" , "rap", "dubai", "coffee",],
+      image: "Epstein.jpg" 
     },
     {
       name: "Shawty Bae",
-      description: "Sweet, creative, and down-to-earth. Ideal for cozy movie nights and meaningful conversations!",
+      description: "Sweet, creative, and down-to-earth. Ideal for cozy movie nights and meaningful conversations… but the whole thing might end up livestreamed.",
       traits: ["kindness", "creativity", "movies", "coffee", "pop"],
       image: "Shawty_Bae.jpg"
     },
     {
-      name: "Ash Trevino",
-      description: "Confident, kind, and incredibly talented. Great for adventure dates and deep connections!",
+      name: "Sean John Combs",
+      description: "Kind, genuine, and loves simple pleasures. Perfect for beach days and relaxed dates… as long as you don’t ask too many questions.",
       traits: ["confidence", "kindness", "creativity", "pop", "paris"],
-      image: "Ash_Tevino.jpeg"
-    },
-    {
-      name: "Jeffrey Epstein",
-      description: "Witty, charming, and loves making people laugh. Perfect for coffee dates and witty banter!",
-      traits: ["confidence", "nobu", "dubai", "rap", "beach"],
-      image: "Epstein.jpg"
+      image: "diddy.jpg"
     },
     {
       name: "Sydney Sweeney",
-      description: "Creative, romantic, and loves cozy vibes. Ideal for coffee dates and artistic adventures!",
+      description: "Creative, romantic, and loves cozy vibes. Ideal for coffee dates and artistic adventures… as long as you don’t bring up the tagline.",
       traits: ["creativity", "kindness", "pop", "paris", "coffee"],
       image: "Sydney_Sweeney.jpg"
     },
     {
-      name: "Sean John Combs",
-      description: "Kind, genuine, and loves simple pleasures. Perfect for beach days and relaxed dates!",
-      traits: ["kindness", "beach", "movies", "classical", "coffee"],
-      image: "diddy.jpg"
+      name: "Ash Trevino",
+      description: "Confident, kind, and incredibly talented. Great for adventure dates and deep connections!",
+      traits: ["kindness", "beach", "movies", "Bali" , "tokyo",  "classical", "coffee"],
+      image: "Ash_Tevino.jpeg"
     }
   ];
   
